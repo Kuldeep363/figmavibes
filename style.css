@@ -76,7 +76,6 @@ h2{
 }
 h2 a{
     color: #fefefe;
-    /* margin: 5px; */
     text-decoration: none;
 }
 h2 div{
@@ -99,24 +98,20 @@ h2 div:hover::before{
     width: 100%;
 }
 button{
-    width: 200px;
     padding: 12px 15px;
     font-size: 14px;
     border-radius: 5px;
     outline: none;
     border: none;
     border: 1px solid #f3724b;
-    color: #f3724b;
+    color: #fefefe;
     background-color: transparent;
     margin: 10px;
     cursor: pointer;
 }
-#hire{
-    color: #fefefe;
-    box-shadow: 0 2px 10px #f3724b6b;
-    background-color: #f3724b;
+button:hover{
+    box-shadow: 0 0 10px #f3724b4a;
 }
-
 
 .circles{
     position: absolute;
@@ -125,6 +120,7 @@ button{
     width: 100%;
     height: 100%;
     overflow: hidden;
+    pointer-events: none;
 }
 
 .circles li{
